@@ -1,71 +1,88 @@
-# Simple Calculator
+# Interest Calculator
 
-This is a simple calculator project that includes a Bash script for computing simple interest based on user input. Fixed typo in documentation.
+<p align="center">
+  <img src="assets/interest-calculator-mark.svg" alt="Interest Calculator logo" width="120">
+</p>
 
-## Project Description
+<p align="center">
+  A lightweight command-line tool for calculating simple interest and the final amount.
+</p>
 
-**Simple Calculator** is an educational project designed to demonstrate fundamental programming concepts including:
-- Basic arithmetic operations
-- User input handling
-- Financial calculations (simple interest)
-- Bash scripting
+<p align="center">
+  <a href="https://github.com/PVegananda/github-final-project/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-2ea44f?style=flat-square" alt="Apache 2.0 license"></a>
+  <img src="https://img.shields.io/badge/shell-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Linux-555?style=flat-square" alt="macOS and Linux">
+</p>
+
+## Overview
+
+Interest Calculator is a focused Bash utility for quickly working out simple
+interest from a principal amount, annual interest rate, and time period. It
+keeps the interaction clear, validates user input, and presents both the
+calculated interest and the final amount in a readable format.
+
+The calculation uses the standard formula:
+
+```text
+Simple Interest = (Principal × Rate × Time) / 100
+Final Amount = Principal + Simple Interest
+```
 
 ## Features
 
-- Simple interest calculation
-- Command-line interface
-- User-friendly input prompts
-- Clear output formatting
+- Simple, interactive command-line workflow
+- Input validation for principal, rate, and time
+- Two-decimal financial calculations using `bc`
+- Clear output for the interest earned and final amount
+- No external runtime or application framework required
 
-## Getting Started
+## Requirements
 
-### Prerequisites
-- Bash shell
-- Basic Unix/Linux operating system
+- Bash 3.2 or later
+- `bc`
+- macOS or Linux
 
-### Installation
+## Getting started
 
-1. Clone the repository:
+Clone the repository and enter its directory:
+
 ```bash
-git clone https://github.com/PVegananda/simple-calculator.git
-cd simple-calculator
+git clone https://github.com/PVegananda/github-final-project.git
+cd github-final-project
 ```
 
-2. Make the script executable:
+Make the script executable:
+
 ```bash
-chmod +x simple-interest.sh
+chmod +x interest-calculator.sh
 ```
 
-### Usage
+Run the calculator:
 
-Run the simple interest calculator:
 ```bash
-./simple-interest.sh
+./interest-calculator.sh
 ```
 
-Follow the prompts to enter:
-- Principal amount
-- Rate of interest
-- Time period
+Enter the principal amount, annual interest rate, and time period in years
+when prompted.
 
-The script will calculate and display the simple interest.
+## Project structure
 
-## License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+```text
+interest-calculator.sh  Interactive calculator
+assets/                 Project branding assets
+```
 
 ## Contributing
 
-We welcome all contributions. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+Suggestions and improvements are welcome. Please read
+[CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue or pull request.
 
-## Code of Conduct
+## License
 
-Please read our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to understand our community standards.
+This project is available under the Apache License 2.0. See [LICENSE](LICENSE)
+for the full license text.
 
 ## Author
 
-PVegananda
-
-## Acknowledgments
-
-This project is part of the Coursera "Introduction to Git and GitHub" course.
+Built and maintained by [PVegananda](https://github.com/PVegananda).

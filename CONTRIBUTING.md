@@ -1,4 +1,4 @@
-# Contributing to github-final-project
+# Contributing to Interest Calculator
 
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 

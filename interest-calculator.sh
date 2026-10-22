@@ -4,7 +4,7 @@
 # This script calculates simple interest based on principal, rate, and time period
 
 echo "================================================"
-echo "        Simple Interest Calculator"
+echo "            Interest Calculator"
 echo "================================================"
 echo ""
 
