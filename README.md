@@ -1,11 +1,11 @@
-# Interest Calculator
+# Interest Calculator CLI
 
 <p align="center">
   <img src="assets/interest-calculator-mark.svg" alt="Interest Calculator logo" width="120">
 </p>
 
 <p align="center">
-  A lightweight command-line tool for calculating simple interest and the final amount.
+  A fast, lightweight Bash CLI for calculating simple interest and final amounts.
 </p>
 
 <p align="center">
@@ -47,8 +47,8 @@ Final Amount = Principal + Simple Interest
 Clone the repository and enter its directory:
 
 ```bash
-git clone https://github.com/PVegananda/github-final-project.git
-cd github-final-project
+git clone https://github.com/PVegananda/interest-calculator-cli.git
+cd interest-calculator-cli
 ```
 
 Make the script executable:
